@@ -1,0 +1,30 @@
+.cardBody {
+    width: 380px;
+    height: 508px;
+    margin-top: 5px;
+    border: 2px solid black;
+    border-radius: 10px;
+    margin-left: 5px;
+    color: black;
+    position: relative;
+}
+.cardBody img {
+    width: 350px;
+    height: 250px;
+    border-radius: 10px;
+    padding: 5px;
+}
+
+.cardBtn {
+    background: #FFE0B3;
+    border: 1px solid #95A0A7;
+    border-radius: 0px 0px 8px 8px;
+    color: black;
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    position:absolute;
+}
+.cardBtn:hover{
+    background:coral;
+}

@@ -1,0 +1,26 @@
+.headerMain{
+    display: flex;
+    background-color: #1C2B35;
+    max-width: 100%;
+    justify-content: space-between;
+    padding: 30px;
+}
+.links a{
+    padding-right: 10px;
+    text-decoration: none;
+    color: white;
+}
+.links a:hover{
+    color: tomato;
+}
+
+
+@media only screen and (max-width: 688px){
+
+    .headerMain{
+        display: flex;
+        flex-direction: column;
+        max-width: 100%;
+    }
+
+}
