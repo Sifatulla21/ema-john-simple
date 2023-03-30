@@ -8,11 +8,9 @@
     grid-template-columns: repeat(3,1fr);
     margin-left: 20px;
 }
-.cart{
-    border: black;
-    background-color: gba(255, 153, 0, 0.3);
-}
-.cart h1{
+.cartArea{
+    background-color: rgba(255, 153, 0, 0.3);
+    margin-right: 20px;
     color: black;
 }
 
